@@ -1,0 +1,31 @@
+application: mesob-1114
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /
+  script: index.html
+
+- url: /index.html
+  script: index.html
+
+- url: /services.html
+  script: services.html
+
+- url: /mail.html
+  script: mail.html
+
+- url: /about.html
+  script: about.html
+
+- url: /js 
+  static_dir: js
+
+- url: /css
+  static_dir: css
+
+- url: /images
+  static_dir: images
+
+
